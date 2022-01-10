@@ -82,10 +82,6 @@ struct WeatherModel {
     let hourly: [WeatherModelHourly]
     let daily: [WeatherModelDaily]
     
-//    init(conditionID: Int, temperature: Double) {
-//        self.conditionID = conditionID
-//        self.temperature = temperature
-//    }
     
     var temperatureString: String {
         return String(Int(temperature))

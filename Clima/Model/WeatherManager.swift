@@ -55,9 +55,10 @@ struct WeatherManager {
             //3. Give the session a task
             let task = session.dataTask(with: url) { data, response, error in
                 if error != nil {
-                    //if userDefaults.isEmpty { didFailWithError } else {}
+                    //if userDefaults.isEmpty { didFailWithError } else {
                     //userDefaults.getValue(weatherModel)
                     //delegate.didUpdateWeather
+                    //}
                     self.delegate?.didFailWithError(error: error!)
                     return
                 }

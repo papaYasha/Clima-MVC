@@ -150,7 +150,7 @@ extension WeatherViewController: WeatherManagerDelegate {
     
     func didFailWithError(error: Error) {
         print(error)
-        //user
+        //userDef.getValue
     }
 }
 
