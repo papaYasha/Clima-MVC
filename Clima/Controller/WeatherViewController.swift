@@ -22,7 +22,7 @@ class WeatherViewController: UIViewController {
     @IBOutlet weak var windSpeedLabel: UILabel!
     @IBOutlet weak var leadingViewMainInfo: UIView!
     
-    //MARK: - Variable
+    //MARK: - Variable, constant
     var weatherManager = WeatherManager()
     let locationManager = CLLocationManager()
     var weatherModel: WeatherModel?
