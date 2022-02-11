@@ -133,7 +133,6 @@ extension WeatherViewController: WeatherManagerDelegate {
         self.present(alert, animated: true)
     }
     
-    
     func didUpdateWeather(weatherManager: WeatherManager, weather: WeatherModel) {
         DispatchQueue.main.async {
             self.temperatureLabel.text = weather.temperatureString
